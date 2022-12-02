@@ -16,7 +16,12 @@ public class QREngine {
         print("📤 Decoding QR code...")
     }
     
+    @available(*, deprecated, message: "Does not support anymore")
     public static func printQR() {
         print("🖨 Printing QR code...")
+    }
+    
+    public static func verify() {
+        print("🩺 Verifying QR code...")
     }
 }

@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         QREngine.encode()
         QREngine.decode()
         QREngine.printQR()
+        QREngine.verify()
     }
     
 }
