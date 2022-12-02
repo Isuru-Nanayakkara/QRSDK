@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         
         QREncoder.encode()
         QRDecoder.decode()
+        QRPrinter.printQR()
     }
     
 }
