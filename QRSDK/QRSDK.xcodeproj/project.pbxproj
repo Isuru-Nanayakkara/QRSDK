@@ -11,9 +11,7 @@
 		D37D3CF12939D33D00587EA0 /* QRSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37D3CE62939D33D00587EA0 /* QRSDK.framework */; };
 		D37D3CF62939D33D00587EA0 /* QRSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D3CF52939D33D00587EA0 /* QRSDKTests.swift */; };
 		D37D3CF72939D33D00587EA0 /* QRSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D37D3CE92939D33D00587EA0 /* QRSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D37D3D012939D37400587EA0 /* QREncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D3D002939D37400587EA0 /* QREncoder.swift */; };
-		D37D3D032939D38000587EA0 /* QRDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D3D022939D38000587EA0 /* QRDecoder.swift */; };
-		D37D3D482939E2B300587EA0 /* QRPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D3D472939E2B300587EA0 /* QRPrinter.swift */; };
+		D37D3D4A2939E89500587EA0 /* QREngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D3D492939E89500587EA0 /* QREngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +30,7 @@
 		D37D3CEA2939D33D00587EA0 /* QRSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = QRSDK.docc; sourceTree = "<group>"; };
 		D37D3CF02939D33D00587EA0 /* QRSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37D3CF52939D33D00587EA0 /* QRSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRSDKTests.swift; sourceTree = "<group>"; };
-		D37D3D002939D37400587EA0 /* QREncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QREncoder.swift; sourceTree = "<group>"; };
-		D37D3D022939D38000587EA0 /* QRDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRDecoder.swift; sourceTree = "<group>"; };
-		D37D3D472939E2B300587EA0 /* QRPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRPrinter.swift; sourceTree = "<group>"; };
+		D37D3D492939E89500587EA0 /* QREngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QREngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				D37D3CE92939D33D00587EA0 /* QRSDK.h */,
-				D37D3D002939D37400587EA0 /* QREncoder.swift */,
-				D37D3D022939D38000587EA0 /* QRDecoder.swift */,
-				D37D3D472939E2B300587EA0 /* QRPrinter.swift */,
+				D37D3D492939E89500587EA0 /* QREngine.swift */,
 				D37D3CEA2939D33D00587EA0 /* QRSDK.docc */,
 			);
 			path = QRSDK;
@@ -203,10 +197,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D37D3D032939D38000587EA0 /* QRDecoder.swift in Sources */,
-				D37D3D482939E2B300587EA0 /* QRPrinter.swift in Sources */,
+				D37D3D4A2939E89500587EA0 /* QREngine.swift in Sources */,
 				D37D3CEB2939D33D00587EA0 /* QRSDK.docc in Sources */,
-				D37D3D012939D37400587EA0 /* QREncoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

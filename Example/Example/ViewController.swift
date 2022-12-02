@@ -13,9 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        QREncoder.encode()
-        QRDecoder.decode()
-        QRPrinter.printQR()
+        QREngine.encode()
+        QREngine.decode()
+        QREngine.printQR()
     }
     
 }
